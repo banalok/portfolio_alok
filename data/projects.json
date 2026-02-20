@@ -1,0 +1,232 @@
+[
+  {
+    "id": "dlscan",
+    "title": "DL-SCAN: Deep-Learning Cell Segmentation & Analysis",
+    "description": "Published microscopy pipeline for deep-learning-based cell segmentation and intensity analysis to improve throughput and reproducibility.",
+    "category": "Scientific Software & Biomedical Imaging",
+    "repo": "https://github.com/banalok/dlscan",
+    "tags": [
+      "Biomedical Imaging",
+      "Computer Vision",
+      "CNN",
+      "Plotly",
+      "Image Processing"
+    ]
+  },
+  {
+    "id": "dlscan-mcp",
+    "title": "DL-SCAN MCP: LLM-Triggered Batch Automation",
+    "description": "MCP-based system that lets an LLM trigger and batch-run the DL-SCAN workflow via natural-language prompts, improving scalability and reproducibility.",
+    "category": "Scientific Software & Biomedical Imaging",
+    "repo": "https://github.com/banalok/dlscan-mcp",
+    "tags": [
+      "Agentic AI",
+      "Biomedical Imaging",
+      "Computer Vision",
+      "MCP"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "assets/media/dlscan-mcp.mp4",
+        "alt": "DL-SCAN MCP demo video"
+      }
+    ]
+  },
+  {
+    "id": "astrocyte_ion_dynamics",
+    "title": "Astrocyte Ion Dynamics: Spatiotemporal Modeling with NeuroMorpho Morphology",
+    "description": "Python-based point and spatiotemporal astrocyte ionic homeostasis model using compartmental morphology data (NeuroMorpho.org) and generating CSV outputs for ion concentrations, currents, and branch/compartment distance mappings.",
+    "category": "Scientific Modeling & Neuroscience",
+    "repo": "https://github.com/banalok/Modeling",
+    "tags": [
+      "Python",
+      "NumPy",
+      "SciPy",
+      "Pandas",
+      "Numba",
+      "Plotly",
+      "Seaborn",
+      "Statsmodels",
+      "NeuroMorpho.org",
+      "Biophysical Modeling"
+    ]
+  },
+  {
+    "id": "computational_drug_dev_using_ML",
+    "title": "Computational Drug Development using ML",
+    "description": "QSAR-style ML workflow using molecular representations, feature extraction/selection, and supervised learning to predict compound activity metrics.",
+    "category": "Scientific ML & Drug Discovery",
+    "repo": "https://github.com/banalok/computational_drug_dev_using_ML",
+    "tags": [
+      "Cheminformatics",
+      "QSAR",
+      "scikit-learn"
+    ]
+  },
+  {
+    "id": "dialog2json",
+    "title": "Dialog-to-JSON Structuring",
+    "description": "Pipeline to convert conversational and clinical dialogue text (e.g., provider–patient interactions and EHR-derived notes) into structured JSON for downstream analytics, clinical data integration, and decision support workflows.",
+    "category": "AI Systems, Agents & LLM Apps",
+    "repo": "https://github.com/banalok/dialog2json",
+    "tags": [
+      "Python",
+      "OpenAI API",
+      "LangChain",
+      "EHR"
+    ]
+  },
+  {
+    "id": "LangChain",
+    "title": "LangChain RAG / LLM App Experiments",
+    "description": "Prototypes exploring retrieval-augmented generation (RAG), chaining, and tool-using LLM application patterns with LangChain.",
+    "category": "AI Systems, Agents & LLM Apps",
+    "repo": "https://github.com/banalok/LangChain",
+    "tags": [
+      "LLMs",
+      "LangChain",
+      "RAG",
+      "Vector Database"
+    ]
+  },
+  {
+    "id": "LLM_for_Medical_transcription",
+    "title": "LLM for Medical Transcription",
+    "description": "NLP/LLM pipeline for transforming medical transcription and clinical documentation into structured representations suitable for EHR integration, clinical summarization, and downstream healthcare analytics.",
+    "category": "AI Systems, Agents & LLM Apps",
+    "repo": "https://github.com/banalok/LLM_for_Medical_transcription",
+    "tags": [
+      "Healthcare NLP",
+      "LLMs",
+      "LangChain",
+      "EHR"      
+    ]
+  },
+  {
+    "id": "n8n-AIAgentWorkflow",
+    "title": "n8n Agentic Workflow Automation",
+    "description": "Agentic automation workflows built in n8n to orchestrate multi-step tasks, integrate tools/APIs, and generate structured outputs.",
+    "category": "AI Systems, Agents & LLM Apps",
+    "repo": "https://github.com/banalok/n8n-AIAgentWorkflow",
+    "tags": [
+      "Agents",
+      "Automation",
+      "n8n"      
+
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "assets/media/n8n-agent-workflow.gif",
+        "alt": "n8n agent workflow demo GIF"
+      }
+    ]
+  },
+  {
+    "id": "n8n-data-analyst-agent",
+    "title": "n8n Data Analyst Agent",
+    "description": "An n8n-based data analyst agent for ingesting data, running transformations, and producing LLM-assisted summaries and insights.",
+    "category": "AI Systems, Agents & LLM Apps",
+    "repo": "https://github.com/banalok/n8n-data-analyst-agent",
+    "tags": [
+      "Agents",
+      "Automation",
+      "n8n",
+      "PostgreSQL"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "assets/media/n8n-data-analyst-demo.gif",
+        "alt": "n8n data analyst agent demo GIF"
+      },
+      {
+        "type": "image",
+        "src": "assets/media/n8n-postgresql.png",
+        "alt": "PostgreSQL screenshot"
+      }
+    ]
+  },
+  {
+    "id": "aws_sagemaker_ec2_s3_ml_pipeline",
+    "title": "AWS SageMaker + EC2 + S3 ML Pipeline",
+    "description": "End-to-end workflow for EDA, feature engineering, model training/optimization, and artifact management using AWS SageMaker with EC2 and S3.",
+    "category": "MLOps & Cloud Pipelines",
+    "repo": "https://github.com/banalok/aws_sagemaker_ec2_s3_ml_pipeline",
+    "tags": [
+      "AWS",
+      "SageMaker"
+    ]
+  },
+  {
+    "id": "Loan_Prediction",
+    "title": "Loan Approval Prediction Pipeline",
+    "description": "End-to-end loan approval ML pipeline with preprocessing, feature engineering, model training, and deployment-ready structure for scalable decisioning.",
+    "category": "MLOps & Cloud Pipelines",
+    "repo": "https://github.com/banalok/Loan_Prediction",
+    "tags": [
+      "CI/CD (GitHub Actions)",
+      "Supervised ML",
+      "AWS Sagemaker",
+      "AWS S3"
+    ]
+  },
+  {
+    "id": "MLOps",
+    "title": "MLOps Toolkit & Experiments",
+    "description": "Hands-on MLOps work using Docker, DVC, and CI/CD patterns to make model training and deployment reproducible.",
+    "category": "MLOps & Cloud Pipelines",
+    "repo": "https://github.com/banalok/MLOps",
+    "tags": [
+      "CI/CD (GitHub Actions)",
+      "Docker",
+      "MLOps"
+    ]
+  },
+  {
+    "id": "ModularML",
+    "title": "Modular ML Framework",
+    "description": "A modular codebase for reusable ML components (data prep, training, evaluation) to speed up experimentation and maintainability.",
+    "category": "MLOps & Cloud Pipelines",
+    "repo": "https://github.com/banalok/ModularML",
+    "tags": [
+      "Python"
+    ]
+  },
+  {
+    "id": "SQL",
+    "title": "SQL Portfolio",
+    "description": "A collection of SQL queries and exercises covering joins, aggregations, window functions, and practical analytics patterns.",
+    "category": "Data Engineering & Analytics",
+    "repo": "https://github.com/banalok/SQL",
+    "tags": [
+      "SQL"
+    ]
+  },
+  {
+    "id": "Power_BI_Projects",
+    "title": "Power BI Projects",
+    "description": "Dashboards and reporting work using Power BI, Power Query, and Power Automate - showcasing KPI design, interactive visuals, and business-focused insights (with SQL/ETL support).",
+    "category": "Data Engineering & Analytics",
+    "repo": "https://github.com/banalok/Power_BI_Projects",
+    "tags": [
+      "Analytics",
+      "Power BI",
+      "Power Automate",
+      "Power Query"
+    ]
+  },
+  {
+    "id": "spotify_recommender_system",
+    "title": "Spotify Recommender System",
+    "description": "Streamlit-based music recommender integrating Spotify API and ML similarity (e.g., KNN) to generate personalized recommendations.",
+    "category": "Applied Machine Learning",
+    "repo": "https://github.com/banalok/spotify_recommender_system",
+    "tags": [
+      "API",
+      "Recommender Systems",
+      "Streamlit"
+    ]
+  }
+]

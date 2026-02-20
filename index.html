@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alok Bhattarai — Portfolio</title>
+  <meta name="description" content="Computational Neuroscientist, Data Analyst/Scientist, and ML Engineer — scientific software, biomedical imaging, agentic AI, MLOps, analytics." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <strong>Alok Bhattarai</strong>
+        <span>Computational Neuroscientist, Data Analyst/Scientist, ML Engineer</span>
+      </div>
+      <div class="nav-links">
+        <a class="pill" href="#experience">Experience</a>
+        <a class="pill" href="#projects">Projects</a>
+        <a class="pill" href="#publications">Publications</a>        
+        <a class="pill" href="#contact">Contact</a>
+        <button id="themeToggle" class="pill" aria-label="Toggle theme">
+          Theme: <span id="themeLabel">Dark</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="hero" id="top">
+      <h1>Building intelligent systems for science and real‑world impact.</h1>
+      <p>
+        I’m a Ph.D.‑trained computational biophysicist/neuroscientist who builds <b>scientific software</b>, 
+        <b>biomedical imaging pipelines</b>, and <b>AI systems</b>; from mechanistic neuron/astrocyte modeling to
+        agentic automation (MCP/n8n), MLOps, and analytics.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="./assets/Alok_Bhattarai_Resume.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+        <a class="btn" href="https://github.com/banalok" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/alokbhattarai/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn" href="mailto:alokkbh26@gmail.com">Email</a>
+      </div>
+
+      <div class="kv">
+        <div class="item">
+          <strong>Focus</strong>
+          <span>Scientific computing • Computer vision • LLM/agent workflows • MLOps • Analytics</span>
+        </div>        
+    </section>
+
+<section class="section" id="experience">
+      <h2>Experience</h2>
+        <!-- Experience Item 1 -->
+        <div class="card">
+          <h3>Graduate Research Assistant </h3>
+          <h4>University of South Florida</h4>
+          <div class="small">Tampa, FL • Jan 2019 — May 2025</div>
+          <ul>
+            <li>Conducted PhD research developing computational models of neuron–astrocyte ion dynamics integrating simulations with experimental data.</li>
+            <li>Built <strong>DL-SCAN</strong>, a deep-learning microscopy pipeline that improved analysis throughput by <strong>&gt;50%</strong>.</li>
+            <li>Designed automated workflows to process large imaging datasets and extract quantitative cellular metrics.</li>            
+            <li>Collaborated with experimental scientists and contributed to peer-reviewed publications and ongoing manuscripts.</li>
+            <li>Translated computational results into biological insights.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Machine Learning Intern </h3>
+          <h4>icardio.ai</h4>
+          <div class="small">Los Angeles, CA • Jun 2024 — Aug 2024</div>
+          <ul>
+            <li>Evaluated and optimized a PyTorch model for left ventricle segmentation using echocardiography data.</li>
+            <li>Performed validation and error analysis to support integration into a production MLOps pipeline.</li>
+            <li>Collaborated with engineering teams to ensure reliability in clinical workflows.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Junior ML Engineer — Omdena</h3>
+          <h4>Omdena Inc.</h4>
+          <div class="small">Remote • Nov 2023 — Jan 2024</div>
+          <ul>
+            <li>Worked with a global team of <strong>~30 collaborators</strong> on deep learning projects.</li>
+            <li>Contributed to Alzheimer’s detection achieving <strong>~99% accuracy</strong>.</li>
+            <li>Built microorganism detection models achieving <strong>~92% accuracy</strong>.</li>
+            <li>Processed <strong>~5,000 imaging samples</strong> across the ML pipeline.</li>
+            <li>Delivered milestones within <strong>40–50 days</strong>.</li>
+          </ul>
+        </div>
+
+
+    </section>
+
+<section class="section" id="projects">
+      <h2>Projects</h2>
+      <p class="lead">
+        Use the filters to browse quickly.        
+      </p>
+
+      <div class="filterbar">
+        <select id="categorySelect" aria-label="Category filter"></select>
+        <input id="searchInput" type="search" placeholder="Search projects (e.g., MCP, AWS, RAG, Power BI)..." />
+        <span id="count" class="small"></span>
+      </div>
+
+      <div class="grid" id="projectsGrid"></div>
+    </section>
+
+<section class="section" id="publications">
+      <h2>Publications</h2>
+      <div class="grid">
+        <div class="card" style="grid-column: span 12;">
+          <h3>DL‑SCAN (Biomolecules 2024)</h3>
+          <p>
+            Deep-Learning-Based Segmentation of Cells and Analysis (DL-SCAN).
+            <span class="small">Biomolecules 2024, 14, 1348.</span>
+            <br/>
+            <span class="small">
+              <a href="https://doi.org/10.3390/biom14111348" target="_blank" rel="noopener noreferrer">
+                https://doi.org/10.3390/biom14111348
+              </a>
+            </span>
+
+          </p>
+        </div>
+        <div class="card" style="grid-column: span 12;">
+          <h3>Baseline Sodium Heterogeneity in Astrocytes (bioRxiv 2025)</h3>
+          <p>
+            Local Differences in Baseline Sodium Shape Astrocytic Potassium Uptake by the NKA.
+            <span class="small">bioRxiv (under second-round peer review at Nature Communications).</span>
+            <br/>
+            <span class="small">
+              <a href="https://doi.org/10.1101/2025.11.18.687951" target="_blank" rel="noopener noreferrer">
+                https://doi.org/10.1101/2025.11.18.687951
+              </a>
+            </span>
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+<section class="section" id="contact">
+      <h2>Contact</h2>
+      <div class="grid">
+        <div class="card" style="grid-column: span 12;">
+          <p>
+            Email: <a href="mailto:alokkbh26@gmail.com">alokkbh26@gmail.com</a><br/>
+            GitHub: <a href="https://github.com/banalok" target="_blank" rel="noreferrer">github.com/banalok</a><br/>
+            LinkedIn: <a href="https://www.linkedin.com/in/alokbhattarai//" target="_blank" rel="noreferrer">linkedin.com/in/alokbhattarai</a>
+          </p>          
+        </div>
+      </div>
+    </section>
+
+    <footer>      
+    </footer>
+  </div>
+
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lightboxClose" type="button" aria-label="Close">×</button>
+    <div class="lightboxInner">
+      <img id="lightboxImg" src="" alt="">
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
