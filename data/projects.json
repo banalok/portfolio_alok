@@ -7,10 +7,7 @@
     "repo": "https://github.com/banalok/dlscan",
     "tags": [
       "Biomedical Imaging",
-      "Computer Vision",
-      "CNN",
-      "Plotly",
-      "Image Processing"
+      "Computer Vision"
     ]
   },
   {
@@ -38,7 +35,7 @@
     "title": "Astrocyte Ion Dynamics: Spatiotemporal Modeling with NeuroMorpho Morphology",
     "description": "Python-based point and spatiotemporal astrocyte ionic homeostasis model using compartmental morphology data (NeuroMorpho.org) and generating CSV outputs for ion concentrations, currents, and branch/compartment distance mappings.",
     "category": "Scientific Modeling & Neuroscience",
-    "repo": "https://github.com/banalok/Modeling",
+    "repo": "./assets/projects/astrocyte_ion_dynamics_model.zip",
     "tags": [
       "Python",
       "NumPy",
@@ -67,14 +64,11 @@
   {
     "id": "dialog2json",
     "title": "Dialog-to-JSON Structuring",
-    "description": "Pipeline to convert conversational and clinical dialogue text (e.g., provider–patient interactions and EHR-derived notes) into structured JSON for downstream analytics, clinical data integration, and decision support workflows.",
+    "description": "Pipeline to convert conversational/dialogue text into structured JSON for downstream analytics or integration.",
     "category": "AI Systems, Agents & LLM Apps",
     "repo": "https://github.com/banalok/dialog2json",
     "tags": [
-      "Python",
-      "OpenAI API",
-      "LangChain",
-      "EHR"
+      "Python"
     ]
   },
   {
@@ -86,21 +80,18 @@
     "tags": [
       "LLMs",
       "LangChain",
-      "RAG",
-      "Vector Database"
+      "RAG"
     ]
   },
   {
     "id": "LLM_for_Medical_transcription",
     "title": "LLM for Medical Transcription",
-    "description": "NLP/LLM pipeline for transforming medical transcription and clinical documentation into structured representations suitable for EHR integration, clinical summarization, and downstream healthcare analytics.",
+    "description": "NLP/LLM project focused on transforming medical transcription text into structured, usable clinical information.",
     "category": "AI Systems, Agents & LLM Apps",
     "repo": "https://github.com/banalok/LLM_for_Medical_transcription",
     "tags": [
       "Healthcare NLP",
-      "LLMs",
-      "LangChain",
-      "EHR"      
+      "LLMs"
     ]
   },
   {
@@ -112,8 +103,7 @@
     "tags": [
       "Agents",
       "Automation",
-      "n8n"      
-
+      "n8n"
     ],
     "media": [
       {
@@ -132,8 +122,7 @@
     "tags": [
       "Agents",
       "Automation",
-      "n8n",
-      "PostgreSQL"
+      "n8n"
     ],
     "media": [
       {
@@ -166,10 +155,8 @@
     "category": "MLOps & Cloud Pipelines",
     "repo": "https://github.com/banalok/Loan_Prediction",
     "tags": [
-      "CI/CD (GitHub Actions)",
-      "Supervised ML",
-      "AWS Sagemaker",
-      "AWS S3"
+      "Deployment",
+      "Supervised ML"
     ]
   },
   {
@@ -179,7 +166,7 @@
     "category": "MLOps & Cloud Pipelines",
     "repo": "https://github.com/banalok/MLOps",
     "tags": [
-      "CI/CD (GitHub Actions)",
+      "CI/CD",
       "Docker",
       "MLOps"
     ]
@@ -192,6 +179,33 @@
     "repo": "https://github.com/banalok/ModularML",
     "tags": [
       "Python"
+    ]
+  },
+  {
+    "id": "airflow_mlflow_forecasting_pipeline",
+    "title": "Retail Sales Forecasting Pipeline with Airflow, MLflow, and Streamlit",
+    "description": "End-to-end MLOps pipeline for retail sales forecasting that orchestrates data generation, validation, feature engineering, model training, experiment tracking, artifact storage, and dashboard-based inference in a production-style containerized setup.",
+    "category": "MLOps & Cloud Pipelines",
+    "repo": "https://github.com/banalok/airflow-mlflow-forecasting-pipeline",
+    "tags": [
+      "Apache Airflow",
+      "Astro",
+      "MLflow",
+      "Streamlit",
+      "Docker",
+      "MinIO",
+      "PostgreSQL",
+      "Python",
+      "Forecasting",
+      "MLOps",
+      "CI/CD"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "assets/media/airflow-mlflow-forecasting-demo.gif",
+        "alt": "Airflow MLflow forecasting pipeline demo GIF"
+      }
     ]
   },
   {
@@ -212,9 +226,7 @@
     "repo": "https://github.com/banalok/Power_BI_Projects",
     "tags": [
       "Analytics",
-      "Power BI",
-      "Power Automate",
-      "Power Query"
+      "Power BI"
     ]
   },
   {

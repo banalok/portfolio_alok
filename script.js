@@ -1,5 +1,5 @@
 const state = {
-  theme: localStorage.getItem("theme") || "dark",
+  theme: localStorage.getItem("theme") || "light",
   category: "All",
   q: "",
   projects: []
@@ -81,7 +81,7 @@ function render(){
       <div class="meta">
         ${p.tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join("")}
       </div>
-      
+      <div class="small tools">Skills used: ${p.tags.map(t => escapeHtml(t)).join(", ")}</div>
       <div>
         <a class="repo" href="${p.repo}" target="_blank" rel="noreferrer">Repo</a>
         <span class="small"> • ${escapeHtml(p.category)}</span>

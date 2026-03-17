@@ -4,4 +4,3 @@ This repository contains the source code for my personal portfolio website, wher
 
 🔗 View the live portfolio here:
 https://banalok.github.io/portfolio_alok/
-
