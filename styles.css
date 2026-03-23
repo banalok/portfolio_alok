@@ -198,3 +198,23 @@ select, input{
 #experience .small {
   margin-top: 0;
 }
+
+#recommendations .card + .card {
+  margin-top: 24px;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+[data-theme="dark"] .tag {
+  color: var(--fg);
+}
