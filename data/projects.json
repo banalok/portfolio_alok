@@ -7,7 +7,10 @@
     "repo": "https://github.com/banalok/dlscan",
     "tags": [
       "Biomedical Imaging",
-      "Computer Vision"
+      "Computer Vision",
+      "CNN",
+      "Plotly",
+      "Image Processing"
     ]
   },
   {
@@ -35,7 +38,7 @@
     "title": "Astrocyte Ion Dynamics: Spatiotemporal Modeling with NeuroMorpho Morphology",
     "description": "Python-based point and spatiotemporal astrocyte ionic homeostasis model using compartmental morphology data (NeuroMorpho.org) and generating CSV outputs for ion concentrations, currents, and branch/compartment distance mappings.",
     "category": "Scientific Modeling & Neuroscience",
-    "repo": "./assets/projects/astrocyte_ion_dynamics_model.zip",
+    "repo": "https://github.com/banalok/Modeling",
     "tags": [
       "Python",
       "NumPy",
@@ -64,11 +67,14 @@
   {
     "id": "dialog2json",
     "title": "Dialog-to-JSON Structuring",
-    "description": "Pipeline to convert conversational/dialogue text into structured JSON for downstream analytics or integration.",
+    "description": "Pipeline to convert conversational and clinical dialogue text (e.g., provider–patient interactions and EHR-derived notes) into structured JSON for downstream analytics, clinical data integration, and decision support workflows.",
     "category": "AI Systems, Agents & LLM Apps",
     "repo": "https://github.com/banalok/dialog2json",
     "tags": [
-      "Python"
+      "Python",
+      "OpenAI API",
+      "LangChain",
+      "EHR"
     ]
   },
   {
@@ -80,18 +86,21 @@
     "tags": [
       "LLMs",
       "LangChain",
-      "RAG"
+      "RAG",
+      "Vector Database"
     ]
   },
   {
     "id": "LLM_for_Medical_transcription",
     "title": "LLM for Medical Transcription",
-    "description": "NLP/LLM project focused on transforming medical transcription text into structured, usable clinical information.",
+    "description": "NLP/LLM pipeline for transforming medical transcription and clinical documentation into structured representations suitable for EHR integration, clinical summarization, and downstream healthcare analytics.",
     "category": "AI Systems, Agents & LLM Apps",
     "repo": "https://github.com/banalok/LLM_for_Medical_transcription",
     "tags": [
       "Healthcare NLP",
-      "LLMs"
+      "LLMs",
+      "LangChain",
+      "EHR"      
     ]
   },
   {
@@ -103,7 +112,8 @@
     "tags": [
       "Agents",
       "Automation",
-      "n8n"
+      "n8n"      
+
     ],
     "media": [
       {
@@ -122,7 +132,8 @@
     "tags": [
       "Agents",
       "Automation",
-      "n8n"
+      "n8n",
+      "PostgreSQL"
     ],
     "media": [
       {
@@ -155,8 +166,10 @@
     "category": "MLOps & Cloud Pipelines",
     "repo": "https://github.com/banalok/Loan_Prediction",
     "tags": [
-      "Deployment",
-      "Supervised ML"
+      "CI/CD (GitHub Actions)",
+      "Supervised ML",
+      "AWS Sagemaker",
+      "AWS S3"
     ]
   },
   {
@@ -166,7 +179,7 @@
     "category": "MLOps & Cloud Pipelines",
     "repo": "https://github.com/banalok/MLOps",
     "tags": [
-      "CI/CD",
+      "CI/CD (GitHub Actions)",
       "Docker",
       "MLOps"
     ]
@@ -226,7 +239,9 @@
     "repo": "https://github.com/banalok/Power_BI_Projects",
     "tags": [
       "Analytics",
-      "Power BI"
+      "Power BI",
+      "Power Automate",
+      "Power Query"
     ]
   },
   {
